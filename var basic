@@ -12,3 +12,98 @@ var greeting = function(name)
 };
 calculate(8);
 greeting("Smitty");
+
+
+var perimeterBox = function(length, width) {
+    return length + width + length + width;
+};
+perimeterBox(3,4)
+
+
+for (var i = 100; i >= 1; i= i-5) {
+	console.log(i);
+}
+
+//array//
+var arrayName = [data, data, data];
+
+var cities = ["nyc", "atl", "pdx", "sea"];
+
+for (var i = 0; i < cities.length; i++) {
+    console.log("I would like to visit " + cities[i]);
+}
+
+//for loops//
+for (var i = start; i < end; i++) {
+  // do something
+}
+
+
+//name search//
+
+text = "Blah blah blah blah blah blah Eric \
+blah blah blah Eric blah blah Eric blah blah \
+blah blah blah blah blah Eric";
+
+var myName = "Eric";
+var hits = [];
+
+// Look for "E" in the text
+for(var i = 0; i < text.length; i++) {
+	if (text[i] === "E") {
+		// If we find it, add characters up to
+		// the length of my name to the array
+		for(var j = i; j < (myName.length + i); j++) {
+			hits.push(text[j]);
+		}
+	}
+}
+
+if (hits.length === 0) {
+	console.log("Your name wasn't found!");
+} else {
+	console.log(hits);
+}
+
+//flip coin//
+var coinFace = Math.floor(Math.random() * 2);
+
+while(coinFace === 0){
+	console.log("Heads! Flipping again...");
+	var coinFace = Math.floor(Math.random() * 2);
+}
+console.log("Tails! Done flipping.");
+
+//or//
+var understand = true;
+
+while(understand === true){
+	console.log("I'm learning while loops!");
+	understand = false;
+}
+
+//Practice makes perfect//
+var count = 0;
+var loop = function(){
+	while(count < 3){
+		//Your code goes here!
+	console.log("I'm looping!")	
+	count++
+	}
+};
+
+loop();
+
+//loop once//
+//Remember to make your condition true outside the loop!
+
+var soloLoop = function(){
+  //Your code goes here!
+    loop = true
+	while(loop){
+		//Your code goes here!
+	console.log("Looped once!")	
+	loop = false }
+};
+
+soloLoop();
