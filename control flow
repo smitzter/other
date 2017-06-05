@@ -27,3 +27,48 @@ switch(color) {
   default:
     console.log("I don't think that's a primary color!");
 }
+
+//slay p2//
+var user = prompt("Do you Slay?").toUpperCase();
+switch(user) {
+    case 'YAS':
+        console.log("And ok! and ok!");
+        break;
+    case 'NO':
+        console.log("its cool.");
+        break;
+    case 'YES':
+        console.log("You sure?");
+        break;
+    default:
+        console.log("try again or get read...");
+        break;
+        
+  //slay p3//var user = prompt("Do you Slay?").toUpperCase();
+bb = "me";
+switch(user) 
+{
+    case 'YAS':
+        if(bb=="me" && 1 == 1)
+         {
+        console.log("And ok! and ok!");
+         }
+            else
+            {
+            console.log("Oops! You broke the game!");    
+            }
+        break;
+    case 'NO':
+        if(bb=="me" || 1 == 1)
+        {
+        console.log("its cool.");
+        }
+        break;
+    case 'YES':
+        console.log("You sure?");
+        break;
+    default:
+        console.log("try again or get read...");
+        break;
+}      
+}
