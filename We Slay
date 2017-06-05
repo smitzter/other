@@ -1,0 +1,25 @@
+//a variable to check if we're still slaying//
+var slaying = true;
+//a variable to check if we hit the dragon//
+var uHit= Math.floor(Math.random() * 2);
+//a variable to keep track of how much damage we've dealt the dragon this round
+var damageRd = Math.floor(Math.random() * 5 + 1);
+//a variable to keep track of total damage//
+var totalDamage = 0;
+
+while(uSlay) {/do this/
+    if (uHit) 
+    console.log("werk, werk it grrl.")
+    yrDamage += damageRd;
+    
+    if (yrDamage >= 14) {
+      console.log("And I slay! And you slay!");
+      uSlay = false;
+    } else {
+      uHit = Math.floor(Math.random() * 2);
+    }
+  } else {
+    console.log("You want to talk about reading...");
+    uSlay = false;
+  }
+}
