@@ -1,0 +1,27 @@
+var answer = prompt("What is your sexuality?");
+
+switch(answer) {
+  case 'gay':
+    console.log("as in happy?");
+    break;
+case 'queer':
+    console.log("as in fuck you?");
+    break;
+case 'lesbian':
+    console.log("my dad always said lez beans like it was funny. it was never funny.");
+    break;
+case 'dyke':
+    console.log("tee hee");
+    break;
+case 'fag':
+    console.log("f is for faggot");
+    break;
+case 'demi':
+    console.log("let's chat awhile");
+    break;
+case 'ace':
+    console.log("i'm cool with friendships");
+    break;
+default:
+  console.log("I have not heard of that yet. Tell me more?")
+}
